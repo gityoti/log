@@ -14,12 +14,8 @@
 `git push`|将文件提交到远程区域|-
 `git push --set-upstream origin 分支名`|创建远程分支|-
 `git push -u origin _gulp:_gulp`|将本地的分支创建到远程|-
-``||
-``||
-``||
-``||
-``||
-``||
+`0`|0|0
+
 ---
 日志相关
 语法|描述|其他
