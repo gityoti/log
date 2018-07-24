@@ -10,7 +10,7 @@
     cat ~/.ssh/id_rsa.pub //读取密钥(公共密钥)
     ssh-keygen -t rsa -C 'git_yoti@tutanota.com' //私有密钥
     ssh -T git@github.com //测试是否链接正常
-    到github网站将ssh 参数进行设置即可进行提交托管操作。
+    到github网站将ssh 参数进行设置即可进行提交托管操作。 
 ```
 
 
