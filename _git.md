@@ -8,10 +8,13 @@
     git config --global user.email 'git_yoti@tutanota.com' //设置邮箱，
     git config --global credential.helper cache // 设置密码缓存15分钟不用输入密码
     配置ssh
-    cat ~/.ssh/id_rsa.pub //读取密钥(公共密钥)
-    ssh-keygen -t rsa -C 'git_yoti@tutanota.com' //私有密钥
-    ssh -T git@github.com //测试是否链接正常
+    ssh-keygen -t rsa -C 'git_yoti@tutanota.com' // 创建一对ssh密码,得到一个RSA码
+    cat ~/.ssh/id_rsa.pub //读取密钥(公钥)
+    cat ~/.ssh/id_rsa //读取密钥(私钥)
+
+    ssh -T git@github.com //测试是否链接正常(使用RSA码认证)
     到github网站将ssh 参数进行设置即可进行提交托管操作。
+    设置==> SSH ==> 添加SSH key ==> 输入共钥即可
 ```
 
 
