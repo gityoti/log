@@ -1,6 +1,7 @@
 
 # git基本操作语法
 ### 本地配置
+![图1](https://github.com/gityoti/log/blob/master/images/git01.png '111')
 ```
     配置用户信息
     git config --global user.name 'yo ti' //设置用户名，必须使用注册github的名称
@@ -10,7 +11,7 @@
     cat ~/.ssh/id_rsa.pub //读取密钥(公共密钥)
     ssh-keygen -t rsa -C 'git_yoti@tutanota.com' //私有密钥
     ssh -T git@github.com //测试是否链接正常
-    到github网站将ssh 参数进行设置即可进行提交托管操作。 
+    到github网站将ssh 参数进行设置即可进行提交托管操作。
 ```
 
 
