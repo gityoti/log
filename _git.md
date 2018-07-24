@@ -120,3 +120,9 @@
     	//# 版本回溯 ## 为什么还原失败??? ## 怎么进行还原???  ## git log 查看版本哈希值!!
     		git reset --hard 8384f2f96a04ea914ab22b60408cc7ef68aab573
     		git checkout 8384f2f96a04ea914ab22b60408cc7ef68aab573
+
+    		错误
+        $ ssh -T git@github.com
+        git@github.com: Permission denied (publickey).
+        //## 可能是把本地设置的ssh key 重新生成了,导致远程的SSH公钥匹配失败
+        //## 在远程重新添加即可链接成功 ==> 不要随便去生成ssh key ,会扰乱配置。
